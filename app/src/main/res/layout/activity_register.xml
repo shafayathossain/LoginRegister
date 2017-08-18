@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"/>
 
     <EditText
-        android:id="@+id/registerUserName"
+        android:id="@+id/registerUserNameField"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/registerNameField"
@@ -28,7 +28,7 @@
         android:id="@+id/registerEmailField"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/registerUserName"
+        android:layout_below="@+id/registerUserNameField"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:layout_centerHorizontal="true"/>
