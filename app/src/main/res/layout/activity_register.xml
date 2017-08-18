@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shafayat.loginregister.RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/registerNameField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text|textPersonName"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/registerUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerNameField"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/registerEmailField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerUserName"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/registerPasswordField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerEmailField"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerPasswordField"
+        android:layout_centerHorizontal="true"
+        android:text="Register" />
+</RelativeLayout>
